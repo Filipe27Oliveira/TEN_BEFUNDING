@@ -102,10 +102,10 @@ h6,
   text-decoration: none;
 }
 #header .logo a span {
-  color: #ffc451;
+  color: #FFA500;
 }
 #hero h2 span {
-  color: #ffc451;
+  color: #FFA500;
 }
 
 #header .logo img {
@@ -377,7 +377,7 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.2)), url("../img/hero-bg.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -421,7 +421,7 @@ h6,
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #ffc451;
+  color: #FFA500;
 }
 
 #hero .carousel-control-prev,
