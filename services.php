@@ -251,48 +251,38 @@ if( empty( $_SESSION['login'] )){
 
         <div class="section-title">
           <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>BEFunding intends to differentiate itself in the market by the quality of services we present, in which we offer a basic package and a Premium package.</p>
         </div>
 
         <div class="row no-gutters">
 
           <div class="col-lg-4 box">
-            <h3>Free</h3>
-            <h4>$0<span>per month</span></h4>
+            <h3>Basic Package</h3>
+            <h4>&euro;8,99<span>per month</span></h4>
+            <h4>&euro;99,99<span>per year</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              <li><i class="bx bx-check"></i> Unlimited projects submission</li>
+              <li><i class="bx bx-check"></i> Basic Project listing</li>
+              <li><i class="bx bx-check"></i> Basic Project promotion</li>
+              <li><i class="bx bx-check"></i> Day-time support Weekdays only</li>
+              <li class="na"><i class="bx bx-x"></i> <span>Advanced data analysis</span></li>
+              <li class="na"><i class="bx bx-x"></i> <span>Extended Customer support from 09am to 23pm - Monday to Saturday</span></li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Join Now</a>
           </div>
-
-          <div class="col-lg-4 box featured">
-            <h3>Business</h3>
-            <h4>$29<span>per month</span></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
           <div class="col-lg-4 box">
-            <h3>Developer</h3>
-            <h4>$49<span>per month</span></h4>
+            <h3>Premium Package</h3>
+            <h4>&euro;14,99<span>per month</span></h4>
+            <h4>&euro;169,99<span>per year</span></h4>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+             <li><i class="bx bx-check"></i> Unlimited projects submission</li>
+              <li><i class="bx bx-check"></i> Priority listing - Projects at the top of the viewing list</li>
+              <li><i class="bx bx-check"></i> Enhanced project promotion</li>
+              <li><i class="bx bx-check"></i> Personalized and faster response times</li>
+              <li><i class="bx bx-check"></i> Advanced data analysis</li>
+              <li><i class="bx bx-check"></i> Extended Customer support from 09am to 23pm - Monday to Saturday</li>
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Join Now</a>
           </div>
 
         </div>

@@ -235,18 +235,18 @@ if( empty( $_SESSION['login'] )){
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Av. dos Descobrimentos 333 <br>
+              4400-103 Vila Nova de Gaia<br>
+              Portugal <br><br>
+              <strong>Phone:</strong> (+351) 223 745 730<br>
+              <strong>Email:</strong> info@ispgaya.pt<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Moderna</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <h3>About BEFunding</h3>
+            <p>BEfunding is a crowdfunding platform based in Porto, Portugal, connecting entrepreneurs and investors to fund innovative business ideas.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

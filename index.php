@@ -56,7 +56,8 @@ if( empty( $_SESSION['login'] )){
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.php">BE<span>Funding</span></a></h1>
+        <h1 class="text-light">
+          <a href="index.php"><img src="assets/img/logo.jpg" alt="Logo Icon"><span>Funding</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -112,7 +113,7 @@ if( empty( $_SESSION['login'] )){
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">The Concept</h2>
+          <h2 class="animate__animated animate__fadeInDown">Concept</h2>
           <p class="animate__animated animate__fadeInUp">A platform that connects investors (Business
 Angels) and Entrepreneurs with business ideas/projects</p>
           <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
@@ -122,8 +123,8 @@ Angels) and Entrepreneurs with business ideas/projects</p>
       <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <h2 class="animate__animated animate__fadeInDown">Crowdfunding platform</h2>
+          <p class="animate__animated animate__fadeInUp">Join the future of financing by supporting and funding innovative ideas through our crowdfunding platform</p>
           <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
       </div>
@@ -177,15 +178,6 @@ Angels) and Entrepreneurs with business ideas/projects</p>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-
         </div>
 
       </div>

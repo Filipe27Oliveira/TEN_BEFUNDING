@@ -102,10 +102,10 @@ h6,
   text-decoration: none;
 }
 #header .logo a span {
-  color: #ffc451;
+  color: #ffdd47;
 }
 #hero h2 span {
-  color: #ffc451;
+  color: #ffdd47;
 }
 
 #header .logo img {
@@ -116,6 +116,29 @@ h6,
 
 #main {
   margin-top: 80px;
+}
+
+h1.text-light {
+  display: flex;
+  align-items: center;
+}
+
+h1.text-light a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+h1.text-light span {
+  margin-left: 10px;
+}
+
+h1.text-light img {
+  height: 25px;
+  width: 30px;
+  object-fit: cover;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -421,7 +444,7 @@ h6,
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #ffc451;
+  color: #ffdd47;
 }
 
 #hero .carousel-control-prev,
@@ -1278,10 +1301,10 @@ section {
   background: #68A4C4;
 }
 
-.pricing .featured {
+/* .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
-}
+} */
 
 .pricing .featured .get-started-btn {
   background: #68A4C4;
@@ -1291,7 +1314,7 @@ section {
   background: #85b6cf;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .pricing .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
@@ -1303,6 +1326,18 @@ section {
     max-width: 80%;
     margin: 0 auto 30px auto;
   }
+}
+
+@media (max-width: 420px) {
+  .pricing .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+} */
+
+.pricing .box {
+  max-width: 100%;
+  margin: 0 auto 30px auto;
 }
 
 @media (max-width: 420px) {
