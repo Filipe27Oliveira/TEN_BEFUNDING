@@ -54,6 +54,8 @@ $campaigns = mysqli_query($conn, $query);
 <!DOCTYPE html>
 <html lang="en">
 
+  
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -100,55 +102,15 @@ $campaigns = mysqli_query($conn, $query);
    <section class="services">
       <div class="container">
 
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-pink">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="projects.php">Projects</a></h4>
-              <p class="description">Check your projects or investments</p>
-            </div>
-          </div>
+      <div class="row">
+  <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+    <div class="icon-box icon-box-pink">
+      <div class="icon"><i class="bx bxl-dribbble"></i></div>
+      <h4 class="title"><a href="#" id="createProject">Create a project</a></h4>
+    </div>
+  </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Rating</a></h4>
-              <p class="description">Rate or view the top rated projects available </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Consulting Services</a></h4>
-              <p class="description"> View availalble consulting services</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Chat</a></h4>
-              <p class="description">Talk with our community</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
- <!-- <section id="hero" class="d-flex align-items-center justify-content-center"> 
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>Welcome<span>!</span></h1>
-          <h2>Please <span>choose</span>, on option.</h2>
-        </div>
-      </div>
-
-  <form method="post">
+  <form method="post" id="form" style="display:none;">
   <div class="form-group">
     <label for="title">Title</label>
     <input type="text" class="form-control" id="title" name="title">
@@ -162,76 +124,38 @@ $campaigns = mysqli_query($conn, $query);
     <input type="text" class="form-control" id="goal" name="goal">
   </div>
   <button type="submit" class="btn btn-primary" name="create">Create</button>
-</form-->
+</form>
 
-
-  <!-- ======= Hero Section ======= -->
-  <!--<section id="hero" class="d-flex align-items-center justify-content-center"> 
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>Register<span>!</span></h1>
-          <h2>Your journey with us starts <span>now</span>, register here.</h2>
-        </div>
-      </div>
-
-      
-       REGISTER 
-
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-            <div class="row">
-            <br>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
-              <form class="form-group" method="post" action="registar.php">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <label for="username">Username</label>         
-                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter your username" autofocus required>
-                  </div>
-                  <div class="col-lg-6">
-                    <label for="genre">Genre</label>         
-                    <select name="genre" class="form-control" id="genre" required>
-                        <option value="M">Male</option>
-                        <option value="F">Female</option>
-                    </select>
-                  </div>  
-                  <div class="col-lg-6">
-                    <label for="firstName">First Name</label>         
-                    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Enter your first name" autofocus required>
-                  </div>
-                  <div class="col-lg-6">
-                    <label for="lastName">Last Name</label>         
-                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Enter your last name" required>
-                  </div>
-                <div class="col-lg-6">
-                  <label for="email">Email</label><br>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
-                </div>
-                <div class="col-lg-6">
-                  <label for="birthday">Birthday Date</label><br>
-                  <input type="date" class="form-control" name="birthday" id="birthday" placeholder="Enter your birthday date" required>
-                </div>
-                  <div class="col-lg-6">
-                    <label for="password">Password</label>         
-                    <input type="password" class="form-control" name="password_1" id="password_1" placeholder="Enter your password" required>
-                  </div>
-                  <div class="col-lg-6">
-                    <label for="password">Re-type Password</label>         
-                    <input type="password" class="form-control" name="password_2" id="password_2" placeholder="Re-type your password" required> <br>
-                  </div>
-              <button type="submit" name="register" class="btn btn-warning">Register</button>
-            </form>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">View Project</a></h4>
+              
+            </div>
           </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Remove Project</a></h4>
+              
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Update Project</a></h4>
+              
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </div>
-  </section><!-- End Hero --> 
+    </section>
 
- 
-
-  <!-- ======= Footer ======= -->
+     <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -280,9 +204,9 @@ $campaigns = mysqli_query($conn, $query);
     </div>
   </footer><!-- End Footer -->
 
+  
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
 
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -313,3 +237,4 @@ $campaigns = mysqli_query($conn, $query);
 <?php
   mysqli_close($conn);
 ?>
+
