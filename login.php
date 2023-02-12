@@ -21,7 +21,7 @@ function test_input($dados) {
   }
 
 if( !empty( $_SESSION['login'] )){
-    header ('Location: subscrever.php');
+    header ('Location: dashboard.php');
 } else {
 
   if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -50,6 +50,7 @@ if( !empty( $_SESSION['login'] )){
         $_SESSION['nome'] = $row['nome'];
         $_SESSION['codigo'] = $row['codigo'];
         $_SESSION['login'] = TRUE;
+        $_SESSION['user_id'] = $row['id'];
         header ('Location: index.php');
       } else {
         $autErr ="PF verifique os dados de autentica��o";
